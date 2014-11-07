@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>191BBA14-0057-483E-B657-648EE9A66F59</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KKHTTPRequest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CCA35AA0FC9FFE87793B43A8A2AB3542B15261C5</key>
+		<string>https://github.com/Coneboy-k/KKHTTPRequest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KKHTTPRequest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CCA35AA0FC9FFE87793B43A8A2AB3542B15261C5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Coneboy-k/KKHTTPRequest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CCA35AA0FC9FFE87793B43A8A2AB3542B15261C5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CCA35AA0FC9FFE87793B43A8A2AB3542B15261C5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KKHTTPRequest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

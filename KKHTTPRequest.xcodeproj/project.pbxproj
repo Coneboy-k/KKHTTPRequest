@@ -14,8 +14,8 @@
 		E1574AAC1A0CC4AD008F6A4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1574AAB1A0CC4AD008F6A4C /* Images.xcassets */; };
 		E1574AAF1A0CC4AD008F6A4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1574AAD1A0CC4AD008F6A4C /* LaunchScreen.xib */; };
 		E1574ABB1A0CC4AD008F6A4C /* KKHTTPRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1574ABA1A0CC4AD008F6A4C /* KKHTTPRequestTests.m */; };
-		E1574ACA1A0CC4DD008F6A4C /* KKBaseHttpQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E1574AC61A0CC4DD008F6A4C /* KKBaseHttpQueue.m */; };
-		E1574ACB1A0CC4DD008F6A4C /* KKHttpOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E1574AC81A0CC4DD008F6A4C /* KKHttpOperation.m */; };
+		E1574AD11A0CC917008F6A4C /* KKBaseHttpQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E1574ACD1A0CC917008F6A4C /* KKBaseHttpQueue.m */; };
+		E1574AD21A0CC917008F6A4C /* KKHttpOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E1574ACF1A0CC917008F6A4C /* KKHttpOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +42,11 @@
 		E1574AB41A0CC4AD008F6A4C /* KKHTTPRequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKHTTPRequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1574AB91A0CC4AD008F6A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1574ABA1A0CC4AD008F6A4C /* KKHTTPRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKHTTPRequestTests.m; sourceTree = "<group>"; };
-		E1574AC51A0CC4DD008F6A4C /* KKBaseHttpQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBaseHttpQueue.h; sourceTree = "<group>"; };
-		E1574AC61A0CC4DD008F6A4C /* KKBaseHttpQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBaseHttpQueue.m; sourceTree = "<group>"; };
-		E1574AC71A0CC4DD008F6A4C /* KKHttpOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKHttpOperation.h; sourceTree = "<group>"; };
-		E1574AC81A0CC4DD008F6A4C /* KKHttpOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKHttpOperation.m; sourceTree = "<group>"; };
-		E1574AC91A0CC4DD008F6A4C /* KKHTTPRequstKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKHTTPRequstKit.h; sourceTree = "<group>"; };
+		E1574ACC1A0CC917008F6A4C /* KKBaseHttpQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKBaseHttpQueue.h; path = KKHTTPRequest_Src/KKBaseHttpQueue.h; sourceTree = SOURCE_ROOT; };
+		E1574ACD1A0CC917008F6A4C /* KKBaseHttpQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKBaseHttpQueue.m; path = KKHTTPRequest_Src/KKBaseHttpQueue.m; sourceTree = SOURCE_ROOT; };
+		E1574ACE1A0CC917008F6A4C /* KKHttpOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKHttpOperation.h; path = KKHTTPRequest_Src/KKHttpOperation.h; sourceTree = SOURCE_ROOT; };
+		E1574ACF1A0CC917008F6A4C /* KKHttpOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKHttpOperation.m; path = KKHTTPRequest_Src/KKHttpOperation.m; sourceTree = SOURCE_ROOT; };
+		E1574AD01A0CC917008F6A4C /* KKHTTPRequstKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKHTTPRequstKit.h; path = KKHTTPRequest_Src/KKHTTPRequstKit.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,11 +130,11 @@
 		E1574AC41A0CC4B5008F6A4C /* KKHTTPRequest_Src */ = {
 			isa = PBXGroup;
 			children = (
-				E1574AC51A0CC4DD008F6A4C /* KKBaseHttpQueue.h */,
-				E1574AC61A0CC4DD008F6A4C /* KKBaseHttpQueue.m */,
-				E1574AC71A0CC4DD008F6A4C /* KKHttpOperation.h */,
-				E1574AC81A0CC4DD008F6A4C /* KKHttpOperation.m */,
-				E1574AC91A0CC4DD008F6A4C /* KKHTTPRequstKit.h */,
+				E1574ACC1A0CC917008F6A4C /* KKBaseHttpQueue.h */,
+				E1574ACD1A0CC917008F6A4C /* KKBaseHttpQueue.m */,
+				E1574ACE1A0CC917008F6A4C /* KKHttpOperation.h */,
+				E1574ACF1A0CC917008F6A4C /* KKHttpOperation.m */,
+				E1574AD01A0CC917008F6A4C /* KKHTTPRequstKit.h */,
 			);
 			name = KKHTTPRequest_Src;
 			sourceTree = "<group>";
@@ -239,10 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1574ACB1A0CC4DD008F6A4C /* KKHttpOperation.m in Sources */,
-				E1574ACA1A0CC4DD008F6A4C /* KKBaseHttpQueue.m in Sources */,
 				E1574AA71A0CC4AD008F6A4C /* ViewController.m in Sources */,
+				E1574AD21A0CC917008F6A4C /* KKHttpOperation.m in Sources */,
 				E1574AA41A0CC4AD008F6A4C /* AppDelegate.m in Sources */,
+				E1574AD11A0CC917008F6A4C /* KKBaseHttpQueue.m in Sources */,
 				E1574AA11A0CC4AD008F6A4C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +434,7 @@
 				E1574AC01A0CC4AD008F6A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1574AC11A0CC4AD008F6A4C /* Build configuration list for PBXNativeTarget "KKHTTPRequestTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +443,7 @@
 				E1574AC31A0CC4AD008F6A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
